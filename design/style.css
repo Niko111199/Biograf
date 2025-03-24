@@ -1,0 +1,15 @@
+.sideBox 
+{
+    display:flex;
+    justify-content: right;
+    margin:2em;
+}
+.bigBox
+{
+    font-size: 2.5em;
+    border: 1em rgb(76, 76, 193) solid;
+    margin:1em;
+    flex-direction: column;
+    max-width: 20em;
+    float:right;
+}
