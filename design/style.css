@@ -1,6 +1,6 @@
 /*__________________________________________________________ Skrevet af Nikolaj Bræmer__________________________________________________________ */
 
-body {
+    body {
             font-family: Arial, sans-serif;
             background-color: rgb(255, 190, 233);
         }
@@ -48,8 +48,71 @@ body {
             cursor: pointer;
             z-index: 10;
         }
-        .nav-btn.left { left: 0; }
-        .nav-btn.right { right: 0; }
+        .nav-btn.left { 
+            left: 0;
+         }
+        .nav-btn.right { 
+            right: 0; 
+        }
+
+        /*alt her fra og til skuespiller til at ændre på film siden opstilling, skal ændres */
+        #movie-details {
+            display: flex; 
+            flex-wrap: wrap; 
+            align-items: flex-start;
+        }
+        
+        #plakat {
+            width: 350px; 
+            height: auto;
+            margin-top: 10px;
+        }
+        
+        #trailer {
+            width: 500px; 
+            height: 300px; 
+            margin-top: 20px; 
+        }
+        
+        #right-column {
+            display: flex;
+            flex-direction: column; 
+            width: 60%; 
+            padding: 10px;
+        }
+        
+        #Titel {
+            font-size: 3rem;
+            margin-left: 10px;
+            font-weight: bold;
+            margin-bottom: 10px; 
+        }
+        
+        #katagori, #aldersgrænse, #længde {
+            font-size: 1.2rem;
+            margin-top: 80px;
+
+        }
+        
+        #beskrivelse {
+            margin-top: 0;
+            text-align: justify;
+            line-height: 1.6; /* Gør teksten lettere at læse */
+        }
+        
+        #medvirkende {
+            font-size: 1.3rem;
+            font-weight: bold; /* Fremhæver sektionen med medvirkende */
+            margin-top: 20px;
+        }
+        
+        #skuspillere {
+            font-size: 1.2rem;
+            margin-top: 5px; /* Afstand mellem skuespillernes linje */
+        }
+        
+
+        
 
 /*__________________________________________________________ Skrevet af Pavia____________________________________________________________________ */
         h1{
