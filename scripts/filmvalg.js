@@ -1,4 +1,4 @@
-//_________________________________________________________ Skrevet af Nikolaj Bræmer_______________________________________________________________
+//_________________________________________________________ Skrevet af Nikolaj Bræmer_____________________________________________________________________________________
 
 //script til startsiden til at fremvise udvalget af film samt til at man kan søge efter en specefik film
 

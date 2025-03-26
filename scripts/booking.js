@@ -1,3 +1,4 @@
+//_________________________________________________________ Skrevet af Nikolaj Bræmer_____________________________________________________________________________________
 document.addEventListener("DOMContentLoaded", function () {
     // Indlæser kurv-detaljer fra URL eller localStorage
     const params = new URLSearchParams(window.location.search);

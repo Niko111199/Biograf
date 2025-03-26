@@ -1,4 +1,4 @@
-//_________________________________________________________ Skrevet af Nikolaj Bræmer_______________________________________________________________
+//_________________________________________________________ Skrevet af Nikolaj Bræmer______________________________________________________________________________________
 
 //script der henter filmene fra sendeplanen der er oprretter i planlægfilm.js og til at hente information ind omkring filmen for at fremvise
 //  det på den givende films side
