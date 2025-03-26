@@ -1,3 +1,5 @@
+//_________________________________________________________ Skrevet af Nikolaj Bræmer_______________________________________________________________
+
 //script der henter filmene fra sendeplanen der er oprretter i planlægfilm.js og til at hente information ind omkring filmen for at fremvise
 //  det på den givende films side
 // informationen bliver hentet ind fra json filen og læst ind på siden

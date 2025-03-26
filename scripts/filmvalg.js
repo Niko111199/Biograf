@@ -1,3 +1,5 @@
+//_________________________________________________________ Skrevet af Nikolaj Bræmer_______________________________________________________________
+
 //script til startsiden til at fremvise udvalget af film samt til at man kan søge efter en specefik film
 
 //event for at sørge at når man søger eller filtrer så bliver siden opdateret med det samme

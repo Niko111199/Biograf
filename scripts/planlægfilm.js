@@ -1,3 +1,5 @@
+//_________________________________________________________ Skrevet af Nikolaj Bræmer_______________________________________________________________
+
 //dynamsisk fremstiller en sendeplan af for filmene, så de ikke manuelt skal indlæses, virker kun til opgaven, da sende tiderne for filmen
 //genres tilfældigt for den browser som er inde på den, for at give ilutionen af en faktisk sende plan, lavet sådan for ikke manuelt at skulle
 //fordele film, og da vi ikke har kendskab eller kan gøre brug af servere til at havde en sendeplan der er ens for alle.
