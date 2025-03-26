@@ -1,5 +1,6 @@
 body {
             font-family: Arial, sans-serif;
+            background-color: rgb(255, 190, 233);
         }
         #movie-container {
             position: relative;
@@ -47,6 +48,106 @@ body {
         }
         .nav-btn.left { left: 0; }
         .nav-btn.right { right: 0; }
+
+        h1{
+            font-size: 2em;
+        }
+        @media only screen and (max-width: 879px) {
+            h1 {
+                float: center;
+                display: flex;
+                justify-content: center;
+                font-size: 4em;
+            }
+            h2{
+                float: center;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        
+        .sideBox 
+        {
+            display:flex;
+            justify-content: right;
+            margin:2em;
+        }
+        @media only screen and (max-width: 879px) 
+            {
+                p{
+                    font-size: 0.5em;
+                }
+                div.sideBox{
+                    width: 12em;
+                    border-width: 300px;
+                    justify-content: left;
+                }
+            }
+        .bigBox
+        {
+            border: 1em rgb(76, 76, 193) solid;
+            background-color: rgb(112, 112, 210);
+            font-size: 2.5em;
+            margin:1em;
+            flex-direction: column;
+            max-width: 20em;
+            float:right;
+            display: flex;
+        }
+        @media only screen and (max-width: 879px) {
+            div.bigBox{
+                margin-left: 5%;
+                margin-right: 5%;
+                float:none
+            }
+        }
+        
+        .åbningstider
+        {
+            font: 100%;
+        }
+        @media only screen and (max-width: 879px) 
+            {
+                div.bigBox{
+                    max-width: 8em;
+                    
+                }
+                dl.åbningstider{
+                    font-size: 0.5em;
+                }
+            }
+        .omkringSide
+        {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20%;
+            margin-right: 20%;
+        
+            border: 1em rgb(76, 76, 193) solid;
+            background-color: rgb(112, 112, 210);
+            padding:2em;
+        }
+        .navbar
+        {   
+            border-bottom: 1em rgb(76, 76, 193) solid;
+            background-color: rgb(112, 112, 210);
+            padding-top: 0.6em;
+            margin-top: -8px;
+            margin-left: -8px;
+            margin-right: -8px;
+            
+        }
+        .navItems
+        {
+            display: flex;
+            flex-direction: row;
+            font-size: 2em;
+        }
+        .indItems
+        {
+            margin-right: 1em;
+            margin-left: 1em;
+        }
 
   
         
