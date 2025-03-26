@@ -1,0 +1,52 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+        #movie-container {
+            position: relative;
+            width: 80%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+        #movie-list {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            white-space: nowrap;
+            scrollbar-width: none;
+        }
+        #movie-list::-webkit-scrollbar {
+            display: none; 
+        }
+        .movie {
+            flex: 0 0 auto;
+            width: 150px;
+            overflow: visible;
+        }
+        .movie img {
+            width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out
+        }
+        .movie img:hover {
+            transform: scale(1.05);
+            z-index: 10;
+        }
+        .nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 10;
+        }
+        .nav-btn.left { left: 0; }
+        .nav-btn.right { right: 0; }
+
+  
+        

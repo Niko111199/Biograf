@@ -1,0 +1,280 @@
+{
+    "movies": [
+      {
+        "id": "OlsenBanden",
+        "title": "Olsen Banden",
+        "image": "img/olsenbanden.jpg",
+        "trailer": "https://www.youtube.com/watch?v=ErPIYF0N3jg",
+        "description": "Egon Olsen er måske en småforbryder, men hans ambitioner er store: Han fantaserer om at begå et spektakulært kup, og så må hans to medhjælpere, den fiffige Benny og den forsigtige Kjeld, hjælpe til. Lige i hælene har Olsen Banden dog den ihærdige kriminalbetjent Mortensen. Dette er den første Olsen Banden-film, Olsen Banden 1, ud af i alt 14 film fra 1968 til 1998.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 20 min",
+        "skuespillere":["Ove Sprogøe","Morten Grunwald","Poul Bundgaard","kirsten Walther","Jes Holtsø","Peter Steen","Poul Reichhardt","Lotte Tarp","Grethe Sønck","Paul Hagen","Arthur Jensen","Ulf Pilgaard"]
+      },
+      {
+        "id": "OlsenBandenpåspanden",
+        "title": "Olsen Banden på spanden",
+        "image": "img/PåSpanden.jpg",
+        "trailer": "https://www.youtube.com/watch?v=R0rMIGiE-4s",
+        "description": "Da Egons forsøg på at lege bankrøver går galt, må han rykke direkte i fængsel. Ude igen er han - takket være den besnærende socialrådgiver Bodil - fast besluttet på at blive resocialiseret. Nogle amerikanske gangstere har dog andre planer, og så er Olsen Banden på spanden.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 51 min",
+        "skuespillere":["Ove Sprogøe","Morten Grunwald","Poul Bundgaard","Ghita Nørby","kirsten Walther","Peter Steen","Preben Kaas","Poul Reichhardt","Paul Hagen","Karl Stegger", "Jes Holtsø", "Palle Kjærulff-Schmidt","Birger Jensen", "Paul Hüttel"]
+      },
+      {
+        "id": "OlsenBandeniJylland",
+        "title": "Olsen Banden i Jylland",
+        "image": "img/IJylland.jpg",
+        "trailer": "https://www.youtube.com/watch?v=ErwzR_FHrEo",
+        "description": "Benny og Kjeld kan ikke skjule deres stolthed, da Egon kommer ud af fængsel. Møjsommeligt har de nemlig lagt en plan, der kan skaffe banden ind i en tobaksforretning efter lukketid. Egon har dog større ambitioner, og så går turen til Jylland med Yvonne og lille Børge på slæb på jagt efter en millionskat fra 2. Verdenskrig.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 41 min",
+        "skuespillere":["Ove Sprogøe","Morten Grunwald","Poul Bundgaard","Benny Hansen","Helle Virkner","Jes Holtsø","Karl Stegger","kirsten Walther","Peter Steen","Preben Kaas","Willy Rathnov"]
+      },
+      {
+        "id": "OlsenBandensstorekup",
+        "title": "Olsen Bandens store kup",
+        "image": "img/storekub.jpg",
+        "trailer": "https://www.youtube.com/watch?v=k2daZZZuX-w",
+        "description": "I Yvonnes stue lufter Egon sit nyeste mål: 4 millioner kroner i en pengetransport. De andre er skeptiske over for Egons store planer, men med hjælp fra en pølsevogn lykkes Olsen Bandens store kup faktisk. I hvert fald indtil den rivaliserende bande Kongen og Knægten melder sig på banen.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 35 min",
+        "skuespillere":["Arthur Jensen","Jes Holtsø","kirsten Walther","Morten Grunwald","Ove Sprogøe","Poul Bundgaard","Poul Reichhardt","Jesper Langberg","Helle Virkner","Karl Stegger","Bjørn Watt Boolsen","Asbjørn Andersen","Claus Ryskjær","ove Verner Hansen","Jens Okking"]
+      },
+      {
+        "id": "OlsenBandengåramok",
+        "title": "Olsen Banden går amok",
+        "image": "img/gårAmok.jpg",
+        "trailer": "https://www.youtube.com/watch?v=bTjYgs_rkrU",
+        "description": "Et kup i Palads-biografen mislykkes, og da Egon kommer ud af fængslet, er der ingen Benny og Kjeld. Til sin store frustration bliver han i stedet modtaget af en ædru, uduelig Dynamit-Harry. Desperat prøver Egon at få de nu lovlydige Benny og Kjeld med på sin geniale plan om at snuppe 6 millioner kroner i sorte penge på Christianshavn.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 37 min",
+        "skuespillere":["Axel Strøbye","kirsten Walther","Morten Grunwald","Ove Sprogøe","Poul Bundgaard","Preben Kaas","Jes Holtsø","ove Verner Hansen","Arthur Jensen","Jesper Langberg","Helle Virkner","Ejner FederSpiel","Birgitte Federspiel","Per Pallesen","holgr Perfort","Jens Okking"]
+      },
+      {
+        "id": "Fartilfireisneen",
+        "title": "Far til fire i sneen",
+        "image": "img/iSneen.jpg",
+        "trailer": "https://www.youtube.com/watch?v=PLbWo_qU1p0",
+        "description": "Far fylder 50 år, og samme dag vinder han en skiferie med hele familien til Norge – for at være en god trafikant. Han er dog ikke helt så dygtig nordpå og forstuver foden. Både Onkel Anders og fru Sejersen kommer ham til undsætning, så det er småt med afslapningen. Imens morer børnene sig i sneen og Søs overøses med opmærksomhed fra en pressefotograf.",
+        "category": "Familie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 38 min",
+        "skuespillere":["Ib Schonberg","Birgitte Bruun","Peter Malberg","Otto Møller Jensen","Ole Neuman","Ib Mossin","Rudi Hansen","Axel Strøbye","Agnes Rehni","Preben Neergaard","Leif B. Hendil"]
+      },
+      {
+        "id": "Fartilfiremedfuldmusik",
+        "title": "Far til fire med fuld musik",
+        "image": "img/medFuldMusik.jpg",
+        "trailer": "https://www.youtube.com/watch?v=4nAAoKP90-8",
+        "description": "Det er fastelavn hjemme hos far, hvor Søs og Peter bor med deres lille baby og Mie og Ole er blevet teenagere. Traditionerne bliver fulgt til punkt og prikke - Lille Per vækker de andre med morgenrisning, og så står den på udklædninger, fru Sejersens fastelavnsboller og tøndeslagning ved Onkel Anders.",
+        "category": "Familie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 28 min",
+        "skuespillere":["Karl Stegger","Hanne Borchsenius","Peter Malberg","Agnes Rehni","Otto Møller Jensen","Ib Mossin","Ole Neumann","kirsten Passer","jørgen Buckhøj","Rudi Hansen","harald Nielsen"]
+      },
+      {
+        "id": "FartilfirepåBornholm",
+        "title": "Far til fire på Bornholm",
+        "image": "img/påBonholm.jpg",
+        "trailer": "https://www.youtube.com/watch?v=lr8GF_8OAGw",
+        "description": "Far har ingen penge, så selvom det er blevet tid til sommerferie, er der ikke meget spænding i sigte for Lille-Per og de andre børn. Lige indtil lykkens gudinde smiler til far og Onkel Anders via en lodseddel, og hele familien kan rejse til Bornholm. Her er der sol, smil og fru Sejersen, og Per får en ny ven, mens Søs møder en filmstjerne.",
+        "category": "Familie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 39 min",
+        "skuespillere":["Karl Stegger","Else Hvidhøj","Peter Malberg","Otto Møller Jensen","Ib Mossin","christan Arhoff","Ole Neumann","Preben Mahrt","Agnes Rehni","Rudi Hansen","Wagge Sandø"]
+      },
+      {
+        "id": "Fartilfireihøjthumør",
+        "title": "Far til fire i højt humør",
+        "image": "img/iHøjtHumør.jpg",
+        "trailer": "https://www.youtube.com/watch?v=hMSoC5jHpno",
+        "description": "Lille Per og Onkel Anders har vundet en campingvogn, og den skal selvfølgelig luftes. Turen går til Jylland med far til fire i højt humør og Fru Sejersen lurende i bakspejlet. En morgen opdager de, at selveste cirkus Benneweis har slået sig ned i nærheden af campingvognen, og så tager familieferien en festlig drejning.",
+        "category": "Familie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 30 min",
+        "skuespillere":["Helge Kjærulff-Scmidt","Bente Messmann","Bo Andersen","Buster Larsen","Vera Gebuhr","Bjørn Ploug","Eli Benneweis","Diana Bennewies","Sonny Bennewies"]
+      },
+      {
+        "id": "Flådensfriskefyre",
+        "title": "Flådens friske fyre",
+        "image": "img/FlådensFriskeFyre.jpg",
+        "trailer": "https://www.youtube.com/watch?v=hWH2tbWwsSI",
+        "description": "Efter købet af deres egen fiskekutter er Svend, Knud og Valdemars økonomi på gyngende grund. Værre endnu går det for de tre venner, da de bliver indkaldt til militæret og tvinges til at forlade kutteren for at gå ombord som menige på et af flådens skibe. Og deres uortodokse opførsel vækker ikke ligefrem lykke hos deres nye overordnede.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 38 min",
+        "skuespillere":["Dirch Passer","Ghita Nørby","Hans W.Petersen","Ove Sprogøe","Paul Hagen","kai Holm","Jan Prisskorn Schimidt","Carl Ottosen","Christine Broe","Karl Stegger","Preben Mahrt","Axel Strøbye","Jesper Langberg","Sigrid Horne-Rasmussen"]
+      },
+      {
+        "id": "Nyhavnsgladegutter",
+        "title": "Nyhavns glade gutter",
+        "image": "img/GladeGutter.jpg",
+        "trailer": "https://www.youtube.com/watch?v=6MBSeer9YDo",
+        "description": "Den elskelige værtshusejer 'Onkel Joakim' er god ved folk og fæ på sin beværtning i Nyhavn. Da han dør, arver hans niece alt efter ham, også værtshuset 'Trinidad'. Hun er dog mere vant til at omgås adlen end Nyhavns glade gutter, så det bliver noget af et kultursammenstød, når hun kommer bag baren og møder Fyrst Fingernem og de andre stamgæster.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 45 min",
+        "skuespillere":["Bodil Udsen","Dirch Passer","Karl Stegger","Paul Bundgaard","Vivi Bak","Gunner Lauring","Sigrid Horne-Rasmussen","kai Holm","Per Pallesen","Preben Mahrt","Willy Rathnov","Paul Hagen","Preben Kaas","Arthur Jensen","Ove Sprogøe"]
+      },
+      {
+        "id": "Bussen",
+        "title": "Bussen",
+        "image": "img/Bussen.jpg",
+        "trailer": "https://www.youtube.com/watch?v=MZT1r0lFhVc",
+        "description": "Buschaufføren Martin tager det hele med et smil. Selvom bussen har set bedre dage, er der ingen stress, og ikke det, der ikke kan klares med en sang. Alligevel bryder byens nye kæmner sig ikke om Martins busdrift. Han planlægger derfor at lade et stort selskab overtage ruten. Men så tager byens kvinder affære.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 29 min",
+        "skuespillere":["Dirch Passer","Karl Stegger","Malene Schwartz","Ove Sprogøe","Paul Hagen","Lily Broberg","Lone Hertz","Axel Strøbye","Ole Monty","Arthur Jensen"]
+      },
+      {
+        "id": "Pigenogpressefotografen",
+        "title": "Pigen og pressefotografen",
+        "image": "img/pressefotografen.jpg",
+        "trailer": "https://www.youtube.com/watch?v=XEU-OZBWud8",
+        "description": "På ugebladet 'Tit og lyt' skyr man ingen midler for at få en god historie i kassen. Journalisten Lene og fotografen Bastian er et effektivt team, men i arbejdet med artiklen “Ugens ægteskab” får de hvirvlet op i de romantiske intriger på redaktionen - og vendt op og ned på deres eget forhold.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 37 min",
+        "skuespillere":["Axel Strøbye","Dirch Passer","Ghita Nørby","Judy Gringer","Paul Hagen","Ove Sprogøe","Bodil Udsen","Hanne Borchsenius"]
+      },
+      {
+        "id": "VedKongelunden",
+        "title": "Ved Kongelunden",
+        "image": "img/vedKongelunden.jpg",
+        "trailer": "https://www.youtube.com/watch?v=f2tf5B3Sa68",
+        "description": "I en haveforening i Kongelunden på Amager bliver Olsen fyret fra sit tjenerjob, Anna opdager, at hun er gravid uden for ægteskab, og Jørgens kæreste slår op med ham. Men der er håb og sommer forude, for der kommer altid en sporvogn og en pige til.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 28 min",
+        "skuespillere":["Birgit Sadolin","Dirch Passer","Henry Nieslen","Ib Schonberg","Inger Lassen","Louis Meihe-Renard","Ove Sprogøe","Buster Larsen","Kate Mundt"]
+      },
+      {
+        "id": "Guldtilpræriensskrappedrenge",
+        "title": "Guld til præriens skrappe drenge",
+        "image": "img/GuldTilPrærien.jpg",
+        "trailer": "https://www.youtube.com/watch?v=0Ed0HN1GGcQ",
+        "description": "Biggy, Ben, Shorty og Sam er tilbage med nye patroner i seksløberne. Igen tager de kampen op imod forbryderne - denne gang med indianerpigen Shannahoo som deres allierede",
+        "category": "Western",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 38 min",
+        "skuespillere":["Dirch Passer","Lykke Nielsen","Paul Hagen","Preben Kaas","Willy Rathnov","Judy Gringer","Jesper Klein","Carl Ottosen","Preben Mahrt","Otto Brandenburg","John Mogensen"]
+      },
+      {
+        "id": "Præriensskrappedrenge",
+        "title": "Præriens skrappe drenge",
+        "image": "img/præriensskrappedrenge.jpg",
+        "trailer": "https://www.youtube.com/watch?v=VwmVG7rtGQs",
+        "description": "Det kan godt være, de rider på ponyer, men de fire cowboy'dere Biggy, Shorty, Ben og Sam er dedikerede i deres kamp for at rydde op i det ganske danske vilde vest. Selv når det betyder at tage kampen op imod en bande guldstjælende forbrydere.",
+        "category": "Western",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 33 min",
+        "skuespillere":["Dirch Passer","Paul Hagen","Preben Kaas","Willy Rathnov","Karl Stegger","Jesper Klein","Ove Sprogøe","Sisse Reingaard","Carl Ottosen","Winnie Mortensen"]
+      },
+      {
+        "id": "Midtomnatten",
+        "title": "Midt om natten",
+        "image": "img/MidtOmNatten.jpg",
+        "trailer": "https://www.youtube.com/watch?v=Sv5z7Qems3s",
+        "description": "Vennerne Arnold og Benny synger og charmerer sig sorgløst igennem tilværelsen. Sammen med en gruppe unge skaber de den lille fristad Haveje i nogle tomme bygninger. Det bringer dem under beskydning fra både rockere og politikere, og presset stiger på både Haveje og de to mænds venskab.",
+        "category": "Thriller",
+        "aldersgrænse":"15 år",
+        "varighed":"2 timer og 6 min",
+        "skuespillere":["Birgitte Raaberg","Erik Clausen","Kim Larsen","Poul Bundgaard","Allan Olsen","Frits Helmuth","Holger Boland","Buster Larsen","Judy Gringer","Ove Sprogøe","Henning Sprogøe","Anders Hove","Leif Sylvester Petersen","Poul Glargaard","Ellin Reimer"]
+      },
+      {
+        "id": "Soldaterkammeraterpåbjørnetjeneste",
+        "title": "Soldaterkammerater på bjørnetjeneste",
+        "image": "img/Soldaterkammerater.jpg",
+        "trailer": "https://www.youtube.com/watch?v=BP6a79deyaM",
+        "description": "Menige 614 og 615 er nye i oversergent Vældegaards regiment. På en march møder soldaterne sønnen af en cirkusdirektør, og inden længe blander barnesko og bjørnepoter sig med soldaternes støvletramp på kasernen.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 27 min",
+        "skuespillere":["Louis Meihe-Renard","Paul Hagen","Paul Bundgaard","Preben Kaas","Willy Rathnov","Dirch Passer","Carl Ottosen","Karl Stegger","Ove Sprogøe","Morten Grunwald"]
+      },
+      {
+        "id": "Soldaterkammerater",
+        "title": "Soldaterkammerater",
+        "image": "img/Soldaterkammerater1.jpg",
+        "trailer": "https://www.youtube.com/watch?v=6ql4KYLWTXY",
+        "description": "I militæret mødes unge mænd af forskellige støbninger og fra forskellige samfundsgrupper. Musikeren, landmanden, skolelæreren med flere må alle vænne sig til militærlivet og den skrappe oversergent Vældegaards befalinger. Heldigvis er de nye soldaterkammerater opfindsomme, så livet på kasernen bliver ikke en ren stroppetur.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 18 min",
+        "skuespillere":["Ebbe Langberg","Louis Meihe-Renard","Paul Hagen","Preben Kaas","Vera Sticker","Klaus Pagh","Svend Johansen","Judy Gringer","Sigrid Horne-Rasmussen","Emil Hass Christensen","Annie Birrgit Garde","Henrik Wiehe","Carl Ottosen","Ole Dixon"]
+      },
+      {
+        "id": "Soldaterkammeraterpåefterårsmanøvre",
+        "title": "Soldaterkammerater på efterårsmanøvre",
+        "image": "img/påEfteraarsManøvre.jpg",
+        "trailer": "https://www.youtube.com/watch?v=OJbA7qH9Yug",
+        "description": "Soldaterkammeraterne beslutter sig for at holde en stor fest, inden de igen skal spænde livremmen rundt om uniformen. Festen bliver et kanon-brag - og næste dags tømmermænd bliver ikke mindre af gensynet med oversergent Vældegaard og et par andre velkendte ansigter blandt de overordnede.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 19 min",
+        "skuespillere":["Carl Ottosen","Ebbe Langberg","Louis Meihe-Renard","Paul Hagen","Preben Kaas","Klaus Pagh","Jytte Abildstrøm","Sigrid Horne-Rasmussen","christan Arhoff"]
+      },
+      {
+        "id": "Soldaterkammeraterrykkerud",
+        "title": "Soldaterkammerater rykker ud",
+        "image": "img/RykkerUd.jpg",
+        "trailer": "https://www.youtube.com/watch?v=u4jNIgTvCvc",
+        "description": "Soldaterkammeraterne er ikke længere rekrutter, men stadig underlagt oversergent Vældegaards bidske blik. Det forhindrer dem dog ikke i at lave unoder - både med de nye rekrutter, og når der er kvinder i kikkerten.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 27 min",
+        "skuespillere":["Dirch Passer","Ebbe Langberg","Louis Meihe-Renard","Paul Hagen","Preben Kaas","Klaus Pagh","Carl Ottosen","Ole Dixon","Svend Johansen","Kjeld Petersen","Annie Birrgit Garde","Vivi Bak","Mimi Heinrich"]
+      },
+      {
+        "id": "SoldaterkammeraterPåVagt",
+        "title": "Soldaterkammerater På Vagt",
+        "image": "img/PåVagt.jpg",
+        "trailer": "https://www.youtube.com/watch?v=graP8GylhSU",
+        "description": "Under en øvelse kommer Knud væk fra sit kompagni. Heldigvis møder han 3 piger, som kører ham til kompagniet. Undervejs når han at forelske sig i den smukke franske pige, Nelle. I forvirringen glemmer han sit gevær i pigernes bil - og så er helvede løs for Knud. Men det daglige liv går videre - indtil en dag 7 af gutterne fra kasernen melder sig frivilligt til FN-styrkerne i Gaza. Her får de 7 spasmagere nok at se til - og til Knuds store glæde og forbavselse dukker Nelle op. Og denne gang har hun brug for Knuds hjælp...!",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 27 min",
+        "skuespillere":["Dirch Passer","Ebbe Langberg","Louis Meihe-Renard","Paul Hagen","Preben Kaas","Klaus Pagh","Carl Ottosen","Ole Dixon","Svend Johansen","Kjeld Petersen","Annie Birrgit Garde","Vivi Bak","Mimi Heinrich"]
+      },
+      {
+        "id": "Minsøstersbørn",
+        "title": "Min søsters børn",
+        "image": "img/Minsøstersbørn.jpg",
+        "trailer": "https://www.youtube.com/watch?v=R0q6BABhkXM",
+        "description": "At der kan være langt fra tanke til handling, finder børnepsykologen Erik ud af, da han skal passe sin søsters børn. Hans tålmodighed og teorier om børneopdragelse bliver nemlig sat på utallige prøver af de seks livlige børn og deres kreative påfund.",
+        "category": "Familie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 58 min",
+        "skuespillere":["Axel Strøbye","Birgit Sadolin","Jan Prisskorn Schimidt","Jeanne Darville","Karl Stegger","Pusle Helmuth","sonja Oppenhagen","william Rosenberg","Vibeke Houlberg","Michal Rosenberg","Ole Søltoft","Jytte Abildstrøm"]
+      },
+      {
+        "id": "Minsøstersbørnpåbryllupsrejse",
+        "title": "Min søsters børn på bryllupsrejse",
+        "image": "img/påBryllupsrejse.jpg",
+        "trailer": "https://www.youtube.com/watch?v=TAYq_ddEdMA",
+        "description": "Onkel Erik er blevet gift og skal på bryllupsrejse til Østrig med sin udkårne Lisbeth. Endelig alene, langt væk fra nevøer og niecer, tror de. Men hans søsters børn nægter at gå glip af et eventyr og finder en kreativ måde at snige sig med på bryllupsrejse.",
+        "category": "Familie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"1 time og 48 min",
+        "skuespillere":["Axel Strøbye","Birgit Sadolin","Jeanne Darville","Karl Stegger","sonja Oppenhagen","william Rosenberg","Jan Prisskorn Schimidt","Vibeke Houlberg","Michal Rosenberg","Pusle Helmuth","lars Madsen","Jørgen Kill","ole Ernst"]
+      },
+      {
+        "id": "StyrmandKarlsen",
+        "title": "Styrmand Karlsen",
+        "image": "img/Styrman.jpg",
+        "trailer": "https://www.youtube.com/watch?v=E8Fl1zVL_V0",
+        "description": "Kaptajn Hammer bliver trukket ud af pensionisttilværelsen, da en skibsredder hyrer ham til at genbesøge en ø ved Afrikas kyst, hvor han tidligere er gået på grund. Han får sammensat et mandskab med den modige styrmand Karlsen i front. På slæb har de skibsredderens forkælede søn, og kursen sættes imod deres livs eventyr.",
+        "category": "Komedie",
+        "aldersgrænse":"Tilladt for alle",
+        "varighed":"2 timer og 7 min",
+        "skuespillere":["Bodil Udsen","Dirch Passer","Ebbe Langberg","Emil Hass Christensen","Frits Helmuth","Ghita Nørby","johannes Meyer","Ove Sprogøe","Karl Stegger","Axel Strøbye","Otto Brandenburg","clara Østø",""]
+      }
+    ]
+  }
+  

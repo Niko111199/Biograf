@@ -2,11 +2,23 @@
 <html>
 <head>
 <title>Page Title</title>
+<link rel="icon" type="image/x-icon" href="img/Favicon.png">
+<link rel="stylesheet" href="design/style.css">
 </head>
 <body>
+    <nav>
+        <h1>Biograf</h1>
+    </nav>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
+    <input type="text" id="searchInput" placeholder="Søg efter film">
+    <select id="categoryFilter">
+        <option value="">Alle kategorier</option>
+    </select>
+    <div id="movie-container">
+        <button class="nav-btn left" onclick="scrollMovies(-300)">&#10094;</button>
+        <div id="movie-list"></div>
+        <button class="nav-btn right" onclick="scrollMovies(300)">&#10095;</button>
+    </div>
+    <script src="scripts/filmvalg.js"></script>
+    <script src="scripts/planlægfilm.js"></script>
 </html>
