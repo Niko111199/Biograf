@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (movie) { // når filemen er fundet indlæser vi tingene fra json filen på siden
                 displayMovieDetails(movie); 
                 loadSchedule(movieId); //og læser den givenden films sende plan ind
+                document.title = movie.title; //sætter titlen på film siden til at hedde det samme som den valte film
             } else {
                 document.getElementById('movie-details').innerHTML = "<p>Ingen film valgt.</p>";
                 //denne besked ville komme op vis nogen går ind på film siden uden at havde klickede ind igennem en film, da den ikke
