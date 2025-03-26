@@ -49,6 +49,9 @@ document.addEventListener("DOMContentLoaded", function () {
         let schedule = JSON.parse(localStorage.getItem(sendePlan)); //henter sendeplanen ind fra localstorrage, vis brugeren er gået til filmen side,
         //uden om startsiden, vil der ikke vare nogen sende plan da den laves på index siden, og såfremt vil ingen film tidspunkter være hentet
         let filteredSchedule = schedule.filter(s => s.movieId === movieId); //sørger for at finde de realvante tidspunkter for den givneden film
+        
+        const currentDateTime= new Date()
+        
 
         const scheduleContainer = document.getElementById("schedule-container");//henter placering for hvor listen skal være
         if (filteredSchedule.length === 0) {
@@ -70,6 +73,19 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //kode for hvad der sker når man tyrkker på knappen
-function bookTicket(movieId, hall, date, time) {
-    alert(`Billet booket til ${movieId} i sal ${hall} d. ${date} kl. ${time}`);
+function bookTicket(movieId, sal, date, time) {
+    fetch('scripts/movies.json') // Henter filmdata
+        .then(response => response.json())
+        .then(data => {
+            const movie = data.movies.find(m => m.id === movieId); // Finder filmen baseret på id
+            if (movie) {
+                const movieTitle = movie.title; // Bruger filmens titel i stedet for id for at få det til at se rigtigt ud for brugeren
+                const bestilplads = `vælgplads.html?movie=${encodeURIComponent(movieTitle)}&sal=${encodeURIComponent(sal)}&date=${encodeURIComponent(date)}&time=${encodeURIComponent(time)}`;
+                //skriver oplysninger om filmen ind i url således at vi kan hente oplysningerne ned i vores kurv senere
+                window.location.href = bestilplads; // Navigerer til siden
+            } else {
+                alert("Film ikke fundet.");
+            }
+        });
 }
+

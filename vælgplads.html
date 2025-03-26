@@ -1,8 +1,8 @@
-<!-- _______________________________________________Skrevet af Nikolaj Bræmer___________________________________________________________________ -->
+<!-- __________________________________________________________________ Skrevet af Nikolaj Bræmer_____________________________________________________________________ -->
 <!DOCTYPE html>
 <html>
 <head>
-<title id="vælg Pladser"></title>
+<title>Vælg pladser</title>
 <link rel="icon" type="image/x-icon" href="img/Favicon.png">
 <link rel="stylesheet" href="design/style.css">
 </head>
@@ -15,8 +15,22 @@
         </dl>
     </div>
 
-     
+    <div id="cart">
+        <h2>Kurv</h2>
+        <p><strong>Film:</strong> <span id="selected-movie"></span></p>
+        <p><strong>Sal:</strong> <span id="selected-sal"></span></p>
+        <p><strong>Dato:</strong> <span id="selected-date"></span></p>
+        <p><strong>Tid:</strong> <span id="selected-time"></span></p>
     </div>
 
+    <div id="seat-selection">
+        <h2>Vælg antal pladser</h2>
+        <input type="number" id="number-of-seats" placeholder="Antal pladser" min="1">
+        <button id="confirm-seats">Bekræft</button>
+
+        <div id="vælgplads"></div>
+    </div>
+
+    <script src="scripts/booking.js"></script>
 </body>
 </html>
