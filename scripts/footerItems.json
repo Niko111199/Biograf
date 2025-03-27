@@ -1,0 +1,65 @@
+{
+    "footerBox1": [
+        {
+            "description": "Spørgsmål og svar"
+        },
+        {
+            "description": "Om Double Nikolaj Biograffer"
+        },
+        {
+            "description": "Om Double Nikolaj"
+        },
+        {
+            "description": "Biografoverblik"
+        },
+        {
+            "description": "partnerbio"
+        },
+        {
+            "description":"Job i DNBIO"
+        },
+        {
+            "description": "Betalingsbetingelse"
+        },
+        {
+            "description": "Privatlivs- og cookiepolitik"
+        },
+        {
+            "description": "Dansk biograf- og underholdningspanel"
+        },
+        {
+            "description": "Opdater samtykke for cookies"
+        },
+        {
+            "description": "angående din hund (vi skød den)"
+        }
+    ],
+    "footerBox2": [
+        {
+            "description": "Tilmed nyhedsbrev"
+        },
+        {
+            "description": "Bliv medlem"
+        },
+        {
+            "description": "Medlemsbetingelser"
+        },
+        {
+            "description": "Niko PLUS UNLIMITED"
+        }
+    ],
+    "footerBox3" : [
+        {
+            "description": "gavepilletter"
+        },
+        {
+            "description": "konference møder"
+        },
+        {
+            "description": "Særdorestillinger"
+        },
+        {
+            "description": "biografreklame"
+        }
+    ]
+}
