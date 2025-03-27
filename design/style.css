@@ -145,7 +145,10 @@
 
 /*__________________________________________________________ Skrevet af Pavia_____________________________________________________________________________________________ */
         h1{
-            font-size: 2em;
+            font-size: 6em;
+            font-family: 'Brush Script MT', cursive;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
         @media only screen and (max-width: 879px) {
             h1 {
@@ -153,24 +156,32 @@
                 display: flex;
                 justify-content: center;
                 font-size: 4em;
+                
             }
             h2{
                 float: center;
                 display: flex;
                 justify-content: center;
+                
             }
         }
-        
+        h2{
+            font-family: Garamond, serif;
+        }
         .sideBox 
         {
             display:flex;
             justify-content: right;
             margin:2em;
+            font-family: Garamond, serif;
+            margin-top: 1em;
+            margin-bottom: 1em;
         }
         @media only screen and (max-width: 879px) 
             {
                 p{
                     font-size: 0.5em;
+
                 }
                 div.sideBox{
                     width: 12em;
@@ -217,10 +228,23 @@
             flex-direction: column;
             margin-left: 20%;
             margin-right: 20%;
-        
+            font-family: Garamond, serif;
             border: 1em rgb(76, 76, 193) solid;
             background-color: rgb(112, 112, 210);
-            padding:2em;
+            padding:1.5em;
+            font-size: 2em;
+        }
+        @media only screen and (max-width: 879px) 
+        {
+            div.omkringSide{
+                font-size: 3em;
+                margin-left: 5%;
+                margin-right: 5%;
+                padding: 10px;
+                border: 0.3em rgb(76, 76, 193) solid;
+                
+            }
+     
         }
         .navbar
         {   
@@ -232,17 +256,48 @@
             margin-right: -8px;
             
         }
+
         .navItems
         {
             display: flex;
             flex-direction: row;
-            font-size: 2em;
+            font-size: 4em;
+            font-family: 'Brush Script MT', cursive;
+        }
+        @media only screen and (max-width: 879px)
+        {
+            dl.navItems{
+                font-size: 2em;
+            }
         }
         .indItems
         {
-            margin-right: 1em;
-            margin-left: 1em;
+            margin-right: 0.5em;
+            margin-left: 0.5em;
+            margin-top: -0.5em;
+            margin-bottom: -0.5em;
+        }
+        @media only screen and (max-width: 879px)
+        {
+            dt.indItems{
+                margin-right: 1em;
+                margin-left: 1em;
+
+            }
         }
 
-  
-        
+        #footer_grid{
+            display: flex;
+            flex-direction: row;
+            position:bottom;
+            bottom: 0;
+            width: 100%;
+            height: 2.5rem;
+            justify-content: space-around;
+            background-color: rgb(102, 116, 210);
+            
+        }
+        .page_container{
+            position: relative;
+            min-height: 100vh;
+        }
