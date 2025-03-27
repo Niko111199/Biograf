@@ -22,11 +22,23 @@
         <p><strong>Dato:</strong> <span id="selected-date"></span></p>
         <p><strong>Tid:</strong> <span id="selected-time"></span></p>
         <h3 id="selected-seats"></h3>
+        <form action="/action_page.php">
+            <p>Vælg billet type:</p>
+        <input type="radio" id="Normal" name="titckettype" value="Normal">
+        <label for="Normal">Normal</label><br>
+        <input type="radio" id="Student" name="titckettype" value="Student">
+        <label for="Student">Studerene</label><br>
+        <input type="radio" id="Pasioninst" name="titckettype" value="Pasioninst">
+        <label for="Pasioninst">Pasioninst</label>
+        <h3>tilkøb snackbillet, spar 10% ved køb online</h3>
+        <h4>inkludere en mellem sodavand og mellem popcorn</h4>
+        <input type="number" id="snackbilleter" name="snackbilleter" min="0" max="100" value="0" />
+        <p><strong>samlet pris:</strong> <span id="price"></span></p>
     </div>
 
     <div id="seat-selection">
         <h2>Vælg dine pladser</h2>
-        <h2>_____________Skerm____________</h2>
+        <h2>_____________Skærm____________</h2>
         <div id="seat-map">
             
         </div>
