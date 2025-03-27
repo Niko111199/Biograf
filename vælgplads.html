@@ -1,18 +1,19 @@
 <!-- __________________________________________________________________ Skrevet af Nikolaj Bræmer_____________________________________________________________________ -->
 <!DOCTYPE html>
-<html>
+<html lang="da">
 <head>
+<meta charset="UTF-8">
 <title>Vælg pladser</title>
 <link rel="icon" type="image/x-icon" href="img/Favicon.png">
 <link rel="stylesheet" href="design/style.css">
 </head>
 <body>
     <div class="navbar">
-        <dl class="navItems">
-            <dt class="indItems"><a href="index.html">start</a> </dt>
-            <dt class="indItems"><a href="omkring.html">omkring</a> </dt>
-            <dt class="indItems"><a href="kontakt.html">Kontakt</a></dt>
-        </dl>
+        <ul class="navItems">
+            <li class="indItems"><a href="index.html">start</a> </li>
+            <li class="indItems"><a href="omkring.html">omkring</a> </li>
+            <li class="indItems"><a href="kontakt.html">Kontakt</a></li>
+        </ul>
     </div>
 
     <div id="cart">
@@ -21,7 +22,7 @@
         <p><strong>Sal:</strong> <span id="selected-sal"></span></p>
         <p><strong>Dato:</strong> <span id="selected-date"></span></p>
         <p><strong>Tid:</strong> <span id="selected-time"></span></p>
-        <h3 id="selected-seats"></h3>
+        <h3 id="selected-seats">plads</h3> <!--bliver udfyldt dynamsik-->
         <form action="/action_page.php">
             <p>Vælg billet type:</p>
         <input type="radio" id="Normal" name="titckettype" value="Normal">
@@ -30,9 +31,10 @@
         <label for="Student">Studerene</label><br>
         <input type="radio" id="Pasioninst" name="titckettype" value="Pasioninst">
         <label for="Pasioninst">Pasioninst</label>
+        </form>
         <h3>tilkøb snackbillet, spar 10% ved køb online</h3>
         <h4>inkludere en mellem sodavand og mellem popcorn</h4>
-        <input type="number" id="snackbilleter" name="snackbilleter" min="0" max="100" value="0" />
+        <input type="number" id="snackbilleter" name="snackbilleter" min="0" max="100" value="0">
         <p><strong>samlet pris:</strong> <span id="price"></span></p>
     </div>
 

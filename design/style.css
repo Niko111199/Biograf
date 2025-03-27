@@ -141,6 +141,10 @@
         .seat.selected {
             background-color: #6c3;
         }
+
+        .indItems{
+            list-style: none;
+        }
         
 
 /*__________________________________________________________ Skrevet af Pavia_____________________________________________________________________________________________ */
@@ -152,14 +156,14 @@
         }
         @media only screen and (max-width: 879px) {
             h1 {
-                float: center;
+                text-align: center;
                 display: flex;
                 justify-content: center;
                 font-size: 4em;
                 
             }
             h2{
-                float: center;
+                text-align: center;
                 display: flex;
                 justify-content: center;
                 
@@ -266,7 +270,7 @@
         }
         @media only screen and (max-width: 879px)
         {
-            dl.navItems{
+            li.navItems{
                 font-size: 2em;
             }
         }
@@ -279,7 +283,7 @@
         }
         @media only screen and (max-width: 879px)
         {
-            dt.indItems{
+            li.indItems{
                 margin-right: 1em;
                 margin-left: 1em;
 
@@ -289,7 +293,7 @@
         #footer_grid{
             display: flex;
             flex-direction: row;
-            position:bottom;
+            position:absolute;
             bottom: 0;
             width: 100%;
             height: 2.5rem;
