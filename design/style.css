@@ -97,24 +97,53 @@
         #beskrivelse {
             margin-top: 0;
             text-align: justify;
-            line-height: 1.6; /* Gør teksten lettere at læse */
+            line-height: 1.6;
         }
         
         #medvirkende {
             font-size: 1.3rem;
-            font-weight: bold; /* Fremhæver sektionen med medvirkende */
+            font-weight: bold;
             margin-top: 20px;
         }
         
         #skuspillere {
             font-size: 1.2rem;
-            margin-top: 5px; /* Afstand mellem skuespillernes linje */
+            margin-top: 5px; 
+        }
+        
+        #cart {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        
+        #seat-selection {
+            text-align: center;
+        }
+        
+        #seat-map {
+            display: grid;
+            grid-template-columns: repeat(8, 40px);
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .seat {
+            width: 40px;
+            height: 40px;
+            background-color: #ddd;
+            border: 1px solid #333;
+            cursor: pointer;
+        }
+        
+        .seat.selected {
+            background-color: #6c3;
         }
         
 
-        
-
-/*__________________________________________________________ Skrevet af Pavia____________________________________________________________________ */
+/*__________________________________________________________ Skrevet af Pavia_____________________________________________________________________________________________ */
         h1{
             font-size: 2em;
         }
