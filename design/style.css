@@ -263,6 +263,10 @@
                 flex-direction: column;
                 gap: 20px;
             }
+
+            footer{
+                display: none;
+            }
         }
         
 
