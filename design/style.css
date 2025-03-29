@@ -551,3 +551,6 @@
 footer {
     margin-top: 2em;
 }
+.delpart{
+    border-bottom: 0.2em solid rgb(76, 76, 193);
+}
