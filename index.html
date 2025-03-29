@@ -11,20 +11,25 @@
 
     <div class="navbar">
         <ul class="navItems">
-            <li class="indItems"><a href="index.html">start</a> </li>
-            <li class="indItems"><a href="omkring.html">omkring</a> </li>
+            <li class="indItems"><a href="index.html">Start</a> </li>
+            <li class="indItems"><a href="omkring.html">Omkring</a> </li>
             <li class="indItems"><a href="kontakt.html">Kontakt</a></li>
         </ul>
     </div>
 
-    <nav>
-        <h1>Biograf</h1>
-    </nav>
+    <div id="banner-container">
+        <img id="banner" src="img/banner.jpg" alt="Dirch passer og Ove sprogøe">
+        <div id="Banner-text-top">Velkommen til DN Biograffen </div>
+        <div id="banner-text-buttom">Specielister i Klassiske Danske film</div>
+    </div>
 
-    <input type="text" id="searchInput" placeholder="Søg efter film">
-    <select id="categoryFilter">
-        <option value="">Alle kategorier</option>
+    <div id="filter-container">
+        <input type="text" id="searchInput" placeholder="Søg efter film">
+        <select id="categoryFilter">
+            <option value="">Alle kategorier</option>
     </select>
+    </div>
+
     <div id="movie-container">
         <button class="nav-btn left" onclick="scrollMovies(-300)">&#10094;</button>
         <div id="movie-list"></div>

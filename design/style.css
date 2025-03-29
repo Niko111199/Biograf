@@ -3,6 +3,8 @@
     body {
             font-family: Arial, sans-serif;
             background-color: rgb(255, 190, 233);
+            margin: 0;
+            padding: 0;
         }
         #movie-container {
             position: relative;
@@ -55,7 +57,54 @@
             right: 0; 
         }
 
-        /*alt her fra og til skuespiller til at ændre på film siden opstilling, skal ændres */
+        #banner-container {
+            position: relative;
+            width: 100%;
+            text-align: center; 
+        }
+
+        #banner{
+            position: relative;
+            left: 0%;
+            width: 95rem;
+            height: auto;
+        }
+
+        #Banner-text-top{
+            position: absolute;
+            top: 30%; 
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.5); 
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+
+        #banner-text-buttom{
+            position: absolute;
+            top: 50%; 
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.5); 
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+        
+        #filter-container{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            gap: 10px; 
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
         #movie-details {
             display: flex; 
             flex-wrap: wrap; 
@@ -144,6 +193,72 @@
 
         .indItems{
             list-style: none;
+        }
+
+        @media (max-width: 1440px){
+            #navbar{
+                size: 100vh;
+                width: 100%;
+            }
+            .navbar {
+                display: flex;
+                justify-content: center; 
+                background-color: rgb(112, 112, 210);
+                padding: 10px 0;
+            }
+            
+            .navItems {
+                display: flex;
+                width: 80%; 
+                justify-content: space-between; 
+                list-style: none; 
+                padding: 0;
+            }
+            
+            .indItems a {
+                font-size: 5rem;
+                font-weight: bold;
+                
+            }
+            #banner{
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 1100px){
+            #navbar{
+                size: 100vh;
+                width: 100%;
+            }
+            .indItems a {
+                font-size: 5rem;
+                font-weight: bold;
+            }
+            #Banner-text-top {
+                top: 20%;
+            }
+            #banner-text-buttom{
+                top: 60%;
+            }
+        }
+
+        @media (max-width: 768px){
+            .indItems a {
+                font-size: 9rem;
+                font-weight: bold;
+                width: 100%;
+            }
+            #banner-container {
+                display: none;
+            }
+            .nav-btn {
+                display: none;
+            }
+            
+            #movie-list {
+                flex-direction: column;
+                gap: 20px;
+            }
         }
         
 
@@ -252,7 +367,8 @@
      
         }
         .navbar
-        {   
+        {  
+            width: 101%; 
             border-bottom: 1em rgb(76, 76, 193) solid;
             background-color: rgb(112, 112, 210);
             padding-top: 0.6em;
