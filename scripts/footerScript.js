@@ -9,7 +9,7 @@ function fetchData()
         }
         return response.json();
     })
-    .then(data => createFooter(data))
+    .then(data => createListItems(data))
     .catch(error => console.error("failed to fetch data", error))
 }
 fetchData();
@@ -17,9 +17,9 @@ fetchData();
 const Footer_data = document.getElementById("footerBox1");
 function createFooter(footerBox1){
     return `        
-    <li>
+    
         <p class="listP">${footerBox1.description}</p>
-        </li>
+        
     `;
 }
 const Footer_data2 = document.getElementById("footerBox2");
