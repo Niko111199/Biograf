@@ -6,4 +6,5 @@ af at problemet var at jeg kaldte den forkerte funktion, fik jeg det til at virk
 ind i midten af dokumentet i stedet for foden. jeg prøvede at bruge posisition: bottom; og det virkede,
 men den kom ikke igennem parseren, så jeg var nødt til at bruge mørk magi og gaffa tape for at få den til at
 blive i bunden, men selv da var det stadigt akavet da den ikke auto formaterede sig selv i forhold til de andre
-elementer.
+elementer. det gik op for mig at jeg selvfølgelig bare kan lave en div som omsvøber begge elementer og sætter dem til 
+at være i en column.

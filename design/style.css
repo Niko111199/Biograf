@@ -366,6 +366,11 @@
             font-family: 'Brush Script MT', cursive;
             margin-top: 10px;
             margin-bottom: 10px;
+            margin-left: 2em;
+        }
+        h2{
+            margin-left: 10em;
+            font-family: Garamond, serif;
         }
         @media(max-width: 879px) {
             h1 {
@@ -373,17 +378,16 @@
                 display: flex;
                 justify-content: center;
                 font-size: 4em;
+                margin-left: 0em;
                 
             }
             h2{
                 text-align: center;
                 display: flex;
                 justify-content: center;
+                margin-left: 0em;
                 
             }
-        }
-        h2{
-            font-family: Garamond, serif;
         }
         .sideBox 
         {
@@ -520,8 +524,7 @@
         {
             div#footer_grid{
                 flex-direction: column;
-                height: auto;
-                width: 100%;
+                justify-content: center;
                 
             }
 
@@ -532,7 +535,7 @@
         }
         .page_container{
             position: relative;
-            min-height: 105em;
+            
         }
         @media(max-width: 879px)
         {
@@ -544,4 +547,7 @@
 .uberContainer{
     display: flex;
     flex-direction: column;
+}
+footer {
+    margin-top: 2em;
 }

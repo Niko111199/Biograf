@@ -9,57 +9,60 @@
 <link rel="stylesheet" href="design/style.css">
 </head>
 <body>
-    <div class="page_container">
-        <div class="navbar">
-            <ul class="navItems">
-                <li class="indItems"><a href="index.html">Start</a> </li>
-                <li class="indItems"><a href="omkring.html">Omkring</a> </li>
-                <li class="indItems"><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-        </div>
+    <div class="uberContainer">
 
-        <div id="Kurv">
-        <div id="cart">
-            <h2>Kurv</h2>
-            <p class="fiksstørrelse"><strong>Film:</strong> <span id="selected-movie"></span></p>
-            <p class="fiksstørrelse"><strong>Sal:</strong> <span id="selected-sal"></span></p>
-            <p class="fiksstørrelse"><strong>Dato:</strong> <span id="selected-date"></span></p>
-            <p class="fiksstørrelse"><strong>Tid:</strong> <span id="selected-time"></span></p>
-            <h3 id="selected-seats">plads</h3> <!--bliver udfyldt dynamsik-->
-            <form action="/action_page.php">
-                <p class="fiksstørrelse">Vælg billet type:</p>
-            <input type="radio" id="Normal" name="titckettype" value="Normal">
-            <label for="Normal">Normal</label><br>
-            <input type="radio" id="Student" name="titckettype" value="Student">
-            <label for="Student">Studerene</label><br>
-            <input type="radio" id="Pasioninst" name="titckettype" value="Pasioninst">
-            <label for="Pasioninst">Pasioninst</label>
-            </form>
-            <h3>tilkøb snackbillet, spar 10% ved køb online</h3>
-            <h4>inkludere en mellem sodavand og mellem popcorn</h4>
-            <input type="number" id="snackbilleter" name="snackbilleter" min="0" max="100" value="0">
-            <p class="fiksstørrelse"><strong>samlet pris:</strong> <span id="price"></span></p>
-        </div>
-
-        <div id="seat-selection">
-            <h2>Vælg dine pladser</h2>
-            <h2>_____________Skærm____________</h2>
-            <div id="seat-map">
-            
-        </div>
-    </div>
-    </div>
+        <div class="page_container">
+            <div class="navbar">
+                <ul class="navItems">
+                    <li class="indItems"><a href="index.html">Start</a> </li>
+                    <li class="indItems"><a href="omkring.html">Omkring</a> </li>
+                    <li class="indItems"><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
     
-
-    <footer>
-        <div id="footer_grid">
-            <div id="footerBox1"></div>
-            <div id="footerBox2"></div>
-            <div id="footerBox3"></div>
+            <div id="Kurv">
+            <div id="cart">
+                <h2>Kurv</h2>
+                <p class="fiksstørrelse"><strong>Film:</strong> <span id="selected-movie"></span></p>
+                <p class="fiksstørrelse"><strong>Sal:</strong> <span id="selected-sal"></span></p>
+                <p class="fiksstørrelse"><strong>Dato:</strong> <span id="selected-date"></span></p>
+                <p class="fiksstørrelse"><strong>Tid:</strong> <span id="selected-time"></span></p>
+                <h3 id="selected-seats">plads</h3> <!--bliver udfyldt dynamsik-->
+                <form action="/action_page.php">
+                    <p class="fiksstørrelse">Vælg billet type:</p>
+                <input type="radio" id="Normal" name="titckettype" value="Normal">
+                <label for="Normal">Normal</label><br>
+                <input type="radio" id="Student" name="titckettype" value="Student">
+                <label for="Student">Studerene</label><br>
+                <input type="radio" id="Pasioninst" name="titckettype" value="Pasioninst">
+                <label for="Pasioninst">Pasioninst</label>
+                </form>
+                <h3>tilkøb snackbillet, spar 10% ved køb online</h3>
+                <h4>inkludere en mellem sodavand og mellem popcorn</h4>
+                <input type="number" id="snackbilleter" name="snackbilleter" min="0" max="100" value="0">
+                <p class="fiksstørrelse"><strong>samlet pris:</strong> <span id="price"></span></p>
+            </div>
+    
+            <div id="seat-selection">
+                <h2>Vælg dine pladser</h2>
+                <h2>_____________Skærm____________</h2>
+                <div id="seat-map">
+                
+            </div>
         </div>
-    </footer>  
-
-</div>
+        </div>
+        
+    
+        <footer>
+            <div id="footer_grid">
+                <div id="footerBox1"></div>
+                <div id="footerBox2"></div>
+                <div id="footerBox3"></div>
+            </div>
+        </footer>  
+    
+    </div>
+    </div>
     
 <script src="scripts/footerScript.js"></script>
     <script src="scripts/booking.js"></script>
