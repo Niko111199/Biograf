@@ -30,16 +30,20 @@ document.addEventListener("DOMContentLoaded", function () {
         const details = document.getElementById('movie-details'); //finder for oplysninger skal skrives ind på filmsiden
         const embedTrailer = movie.trailer.replace("https://www.youtube.com/watch?v=", "https://www.youtube.com/embed/"); //omformatere youtube linkede så det kan embedes
         details.innerHTML = `
+        <div>
             <img src="${movie.image}" alt="${movie.title}" id="plakat">
+            <iframe id="trailer" src="${embedTrailer}" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div>
             <h1 id="Titel">${movie.title}</h1>
             <h2 id="katagori">${movie.category}</h2>
             <h2 id="aldersgrænse">${movie.aldersgrænse}</h2>
             <h3 id="længde">${movie.varighed}</h3>
-            <iframe id="trailer" src="${embedTrailer}" frameborder="0" allowfullscreen></iframe>
             <p id="beskrivelse">${movie.description}</p>
             <h2 id="medvirkende">Medvirkende</h2>
             <p id="skuspillere">${movie.skuespillere.join(", ")}</p>
             <div id="schedule-container"></div>
+        </div>
         `;//næst sidste linje løser således at skuespillerens navne bliver fremvist med mellemrum imellem dem
           // sidste linje er der hvor sendeplanen bliver læst ind
     }
