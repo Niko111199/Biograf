@@ -395,7 +395,7 @@
         }
         @media(max-width: 879px)
         {
-            li.navItems{
+            ul.navItems{
                 font-size: 2em;
             }
         }
@@ -418,8 +418,9 @@
         #footer_grid{
             display: flex;
             flex-direction: row;
-            position:bottom;
+            position:absolute;
             bottom: 0;
+            height: 28rem;
             width: 100%;
             margin: -10px;
             padding-right: 18px;
@@ -427,7 +428,28 @@
             background-color: rgb(102, 116, 210);
             
         }
+        @media only screen and (max-width: 879px)
+        {
+            div#footer_grid{
+                flex-direction: column;
+                height: auto;
+                width: 100%;
+                
+            }
+
+        }
+
+        .listP{
+            margin-left: 4em;
+        }
         .page_container{
             position: relative;
-            min-height: 100vh;
+            min-height: 100em;
+        }
+        @media only screen and (max-width: 879px)
+        {
+            div.page_container{
+                min-height: 70em;
+            }
+
         }
