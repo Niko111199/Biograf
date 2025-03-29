@@ -6,6 +6,19 @@
             margin: 0;
             padding: 0;
         }
+        #footer_grid{
+            display: flex;
+            flex-direction: row;
+            position:absolute;
+            bottom: 0 ; 
+            height: 28rem;
+            width: 100%;
+            margin: -10px;
+            padding-right: 18px;
+            justify-content: space-around;
+            background-color: rgb(102, 116, 210);
+            
+        }
         #movie-container {
             position: relative;
             width: 80%;
@@ -267,6 +280,14 @@
             footer{
                 display: none;
             }
+
+            .movie{
+                margin-left: 50%;
+            }
+
+            .movie img {
+                width: 300%;
+            }
         }
         
 
@@ -419,7 +440,7 @@
             display: flex;
             flex-direction: row;
             position:absolute;
-            bottom: 0;
+            bottom: 0 ; 
             height: 28rem;
             width: 100%;
             margin: -10px;
