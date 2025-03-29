@@ -117,42 +117,49 @@
             margin-top: 10px;
             margin-bottom: 10px;
         }
+
+        #searchInput {
+            width: 300px;
+            height: 40px;
+            font-size: 16px;
+            padding: 5px; 
+        }
+        
+        #categoryFilter {
+            width: 200px;
+            height: 40px;
+            font-size: 16px;
+            padding: 5px;
+        }
         
         #movie-details {
-            display: flex; 
-            flex-wrap: wrap; 
-            align-items: flex-start;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px; 
+            padding: 20px;
         }
         
         #plakat {
-            width: 350px; 
-            height: auto;
-            margin-top: 10px;
+            width: 100%; 
+            border-radius: 8px;
         }
         
         #trailer {
-            width: 500px; 
-            height: 300px; 
-            margin-top: 20px; 
+            margin-top: 10px;
+            width: 120%;
+            height: 40%;
+            overflow: visible;
         }
-        
-        #right-column {
-            display: flex;
-            flex-direction: column; 
-            width: 60%; 
-            padding: 10px;
-        }
-        
+         
         #Titel {
             font-size: 3rem;
-            margin-left: 10px;
             font-weight: bold;
-            margin-bottom: 10px; 
+            margin-bottom: 10px;
         }
         
         #katagori, #aldersgrænse, #længde {
             font-size: 1.2rem;
-            margin-top: 80px;
+            margin-bottom: 10px;
 
         }
         
@@ -172,15 +179,54 @@
             font-size: 1.2rem;
             margin-top: 5px; 
         }
+
+        @media (max-width: 1250px) {
+            #movie-details {
+                display: block; 
+            }
+        
+            #plakat, #Titel, #katagori, #aldersgrænse, #længde, #schedule-container {
+                width: 100%; 
+                margin-bottom: 20px; 
+            }
+
+            #trailer{
+                width: 100%;
+                height: 80%;
+                margin-bottom: 20px; 
+            }
+
+            #beskrivelse{
+                width: 100%; 
+                margin-bottom: 20px;
+                font-size: 1rem;
+            
+            }
+
+            footer{
+                display: none;
+            }
+    
+        }
+
+        #Kurv{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
         
         #cart {
+            width: 30%;
             border: 1px solid #ccc;
             padding: 10px;
             margin-bottom: 20px;
             background-color: #fff;
+            padding: 15px;
         }
         
         #seat-selection {
+            width: 60%;
+            padding: 15px;
             text-align: center;
         }
         
@@ -188,9 +234,33 @@
             display: grid;
             grid-template-columns: repeat(8, 40px);
             gap: 10px;
+            margin-top: 20px;
             justify-content: center;
             margin-top: 20px;
             margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            #Kurv{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                 justify-content: center;
+            }
+            #cart {
+                width: 93%;
+                order: -1; 
+                font-size: 1rem;
+            }
+        
+            #seat-selection {
+                width: 91%; 
+                order: 0; 
+            }
+
+            .fiksstørrelse{
+                font-size: 1rem;
+            }
         }
         
         .seat {
@@ -211,7 +281,6 @@
 
         @media(max-width: 1440px){
             #navbar{
-                size: 100vh;
                 width: 100%;
             }
             .navbar {
@@ -230,7 +299,7 @@
             }
             
             .indItems a {
-                font-size: 5rem;
+                font-size: 3rem;
                 font-weight: bold;
                 
             }
@@ -241,7 +310,6 @@
 
         @media(max-width: 1100px){
             #navbar{
-                size: 100vh;
                 width: 100%;
             }
             .indItems a {
@@ -259,7 +327,7 @@
             }
         }
 
-        @media(max-width: 768px){
+        @media(max-width: 725px){
             .indItems a {
                 font-size: 2.5rem;
                 font-weight: bold;
@@ -275,18 +343,19 @@
             #movie-list {
                 flex-direction: column;
                 gap: 20px;
+                
+            }
+
+            #movie{
+                justify-content: center;
             }
 
             footer{
                 display: none;
             }
 
-            .movie{
-                margin-left: 50%;
-            }
-
             .movie img {
-                width: 300%;
+                width: 200%;
             }
         }
         
@@ -464,7 +533,7 @@
         }
         .page_container{
             position: relative;
-            min-height: 100em;
+            min-height: 105em;
         }
         @media(max-width: 879px)
         {
