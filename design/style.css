@@ -507,9 +507,8 @@
         #footer_grid{
             display: flex;
             flex-direction: row;
-            position:absolute;
-            bottom: 0 ; 
-            height: 28rem;
+            position:relative;
+            bottom:0px;
             width: 100%;
             margin: -10px;
             padding-right: 18px;
@@ -542,3 +541,7 @@
             }
 
         }
+.uberContainer{
+    display: flex;
+    flex-direction: column;
+}
