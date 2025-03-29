@@ -16,20 +16,32 @@
         <li class="indItems"><a href="kontakt.html">Kontakt</a></li>
     </ul>
 </div>
-
-<div class="page_container">
-        <h1>Double nikolaj</h1>
-        <h2>Omkring</h2>
-            <div class="omkringSide">
-                <p>regler:</p>
-                <p>regl 1: hvis du kommer med egne snacks, skyder vi din hund.</p>
-            </div>
-    <!-- _____________________________________________________________________Skrevet af Nikolaj Bræmer___________________________________________________________________ -->
-            <div class="map_container">
-                <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Nørresø%20viborg&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-            </div>  
-    <!-- _________________________________________________________________________Skrevet af Pavia________________________________________________________________________ -->
-    
+<div class="uberContainer">
+    <div class="page_container">
+            <h1>Double nikolaj</h1>
+            <h2>Omkring</h2>
+                <div class="omkringSide">
+                    <p>regler:</p>
+                    <p>regl 1: hvis du kommer med egne snacks, skyder vi din hund.</p>
+                    <p>process</p>
+                    <p class="delpart">Pavia</p>
+                    <p id="PaviaOmkring">
+                        change this text.
+                     </p>
+                     <script>
+                         let e = document.getElementById("PaviaOmkring");
+                         fetch("PaviaOmkringText.txt")
+                         .then(o => o.text())
+                         .then(t => e.innerHTML = t);
+                     </script>
+                    <p class="delpart">Nikolaj</p>
+                </div>
+        <!-- _____________________________________________________________________Skrevet af Nikolaj Bræmer___________________________________________________________________ -->
+                <div class="map_container">
+                    <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Nørresø%20viborg&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                </div>  
+        <!-- _________________________________________________________________________Skrevet af Pavia________________________________________________________________________ -->
+    </div>
     <footer>
         <div id="footer_grid">
             <div id="footerBox1"></div>
@@ -37,7 +49,7 @@
             <div id="footerBox3"></div>
         </div>
     </footer>    
-    
+
 </div>
         
 <script src="scripts/footerScript.js"></script>

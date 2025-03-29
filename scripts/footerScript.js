@@ -1,6 +1,7 @@
 //_________________Skrevet af Pavia____________________________________
 
-/*henter json script og sender en fejlmeddellelse hvis den ikke kan finde den. */
+/*henter json script og sender en 
+fejlmeddellelse hvis den ikke kan finde den. */
 function fetchData() {
     fetch("scripts/footerItems.json")
     .then((response) => {
@@ -34,19 +35,19 @@ function createFooter3(footerBox3)
 // indexerer sig selv videre til den næste element i JSON filen.
 function createListItems(data) 
 {
-    console.log("wtf!?")
+    console.log("it works!!")
     for (let i = 0; i< data.footerBox1.length; i++)
     {
-        Footer_data.innerHTML += createFooter(data.footerBox1[i])
+        Footer_data.innerHTML += createFooter(data.footerBox1[i]);
     }
 
     for (let i = 0; i< data.footerBox2.length; i++)
     {
-        Footer_data2.innerHTML += createFooter2(data.footerBox2[i])
+        Footer_data2.innerHTML += createFooter2(data.footerBox2[i]);
     }
 
     for (let i = 0; i< data.footerBox3.length; i++)
     {
-        Footer_data3.innerHTML += createFooter3(data.footerBox3[i])
+        Footer_data3.innerHTML += createFooter3(data.footerBox3[i]);
     }
 }
