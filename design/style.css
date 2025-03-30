@@ -517,7 +517,7 @@
             bottom:0px;
             width: 100%;
             margin: -10px;
-            padding-right: 18px;
+            padding-right: 17px;
             justify-content: space-around;
             background-color: rgb(102, 116, 210);
             
@@ -532,6 +532,53 @@
 
         }
 
+        .map_container{
+            width: 100%;
+            max-width: 800px;
+            height: 500px;
+            
+        }
+
+        .map_container iframe {
+            width: 100%;
+            height: 100%;
+           display: flex;
+           justify-content: center;
+           padding-left: 23em;
+           padding-top: 2em;
+           border: 0;
+        }
+
+        @media(max-width: 879px)
+        {
+            .map_container{
+                width: 100%;
+            }
+            .map_container iframe{
+                width: 80%;
+                height: 80%;
+                padding-left: 3em;
+                display:flex;
+                float: left;
+            }
+
+        }
+
+        @media(max-width: 1440px)
+        {
+            .map_container{
+                width: 100%;
+            }
+            .map_container iframe{
+                width: 80%;
+                height: 80%;
+                padding-left: 3em;
+                display:flex;
+                float: left;
+            }
+
+        }
+        
         .listP{
             margin-left: 4em;
         }
