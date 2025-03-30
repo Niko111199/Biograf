@@ -204,7 +204,7 @@
             }
 
             footer{
-                display: none;
+                display: flex;
             }
     
         }
@@ -323,7 +323,9 @@
                 top: 60%;
             }
             #footer_grid{
-                display: none;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: row;
             }
         }
 
@@ -351,7 +353,7 @@
             }
 
             footer{
-                display: none;
+                display: flex;
             }
 
             .movie img {
