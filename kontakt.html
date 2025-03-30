@@ -23,11 +23,36 @@
     
         
         <h1>Double nikolaj</h1>
-        <h2>Kontakt side</h2>
+
+        <div class="bigBox">
+
+            <h3>kontakt os</h3>
+
+            <form action="mailto:falskmail@via.com" method="post" enctype="text/plain">
+                <label for="navn">Navn:</label>
+                <input type="text" id="navn" name="navn" required>
+                
+                <label for="kategori">Kategori:</label>
+                <select id="kategori" name="kategori" required>
+                    <option value="" disabled selected>Vælg en kategori</option>
+                    <option value="billetter">Om Billetter</option>
+                    <option value="Sal">Om sal</option>
+                    <option value="slikbilleter">Om slikbilleter</option>
+                    <option value="Klage">Klage</option>
+                    <option value="biograffen">Om biograffen</option>
+                    <option value="generelt">Generelle spørgsmål</option>
+                </select>
+                
+                <label for="besked">Besked:</label>
+                <textarea id="besked" name="besked" rows="10" cols="100" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
     
         <div class="bigBox">
             <p class="sideBox"> 
-                <a href="mailto:SutMinLillePik@yahoo.com"> E-mail: proffessionel email.</a>
+                <a href="mailto:falskmail@via.com"> E-mail: kontakt os på email.</a>
             </p>
     
             <p class="sideBox">Adresse: Nørresø, 8800, Viborg</p>
@@ -47,7 +72,7 @@
             </div>
         </div>
     
-        <footer>
+        <footer id="fixfooter">
             <div id="footer_grid">
                 <div id="footerBox1"></div>
                 <div id="footerBox2"></div>

@@ -19,6 +19,9 @@
             background-color: rgb(102, 116, 210);
             
         }
+        #pushfooter{
+            margin-bottom: 15rem;
+        }
         #movie-container {
             position: relative;
             width: 80%;
@@ -225,9 +228,14 @@
         }
         
         #seat-selection {
+            display: flex;
             width: 60%;
-            padding: 15px;
+            flex-direction: column;
             text-align: center;
+        }
+
+        .puchleft{
+            padding-right: 15rem;
         }
         
         #seat-map {
@@ -251,6 +259,10 @@
                 width: 93%;
                 order: -1; 
                 font-size: 1rem;
+            }
+
+            .puchleft{
+                padding-right: 0rem;
             }
         
             #seat-selection {
@@ -308,6 +320,12 @@
             }
         }
 
+        @media(max-width:1250px){
+            #fixfooter{
+                display: none;
+            }
+        }
+
         @media(max-width: 1100px){
             #navbar{
                 width: 100%;
@@ -326,6 +344,14 @@
                 display: flex;
                 justify-content: space-around;
                 flex-direction: row;
+            }
+
+            .puchleft{
+                padding-right: 0rem;
+            }
+
+            textarea{
+                max-width: 250px
             }
         }
 

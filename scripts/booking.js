@@ -125,5 +125,17 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    //metode til at skrive information i en alert ved tryk af bestil
+    document.getElementById("order-button").addEventListener("click", function () { // henter alle informationer
+        const movie = document.getElementById("selected-movie").textContent;
+        const sal = document.getElementById("selected-sal").textContent;
+        const date = document.getElementById("selected-date").textContent;
+        const time = document.getElementById("selected-time").textContent;
+        const seats = selectedSeats.length > 0 ? selectedSeats.join(", ") : "Ingen pladser valgt, vælg venligtst en plads";
+        const totalPrice = document.getElementById("price").textContent;
+    
+        alert(`Du har bestilt:\n\nFilm: ${movie}\nSal: ${sal}\nDato: ${date}\nTid: ${time}\nPladser: ${seats}\n\nSamlet pris: ${totalPrice}`); // skriver tekst i alert
+    });
+
     Calculateprice(); // Opdater pris ved load
 });
