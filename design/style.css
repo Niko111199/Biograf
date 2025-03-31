@@ -273,6 +273,13 @@
             .fiksstørrelse{
                 font-size: 1rem;
             }
+            #seat-selection {
+                padding-left: 9rem;
+                display: flex;
+                width: 30%;
+                flex-direction: column;
+                text-align: center;
+            }
         }
         
         .seat {
